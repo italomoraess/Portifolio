@@ -1,10 +1,14 @@
-import { MainMenu } from './components/MainMenu'
+import { Footers } from "./components/Footer"
+import { Headers } from "./components/Header"
+import { GlobalStyles } from "./styles/Global"
 
 function App() {
   return (
-    <div>
-      <MainMenu></MainMenu>
-    </div>
+    <>
+      <GlobalStyles />
+      <Headers />
+      <Footers />
+    </>
   )
 }
 
