@@ -8,5 +8,6 @@ export const GlobalStyles = createGlobalStyle`
     list-style: none;
     background-color: #1a1b1c;
     font-family: 'Yanone Kaffeesatz', serif;
+    color: #FFF;
   }
 `;

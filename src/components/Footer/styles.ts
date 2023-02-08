@@ -13,5 +13,6 @@ export const Footer = styled.footer`
   font-size: 18px;
     span{
       font-family: sans-serif;
+      background-color: #202124;
     }
 `;

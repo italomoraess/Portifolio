@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Javascript",
+    "img": "https://skillicons.dev/icons?i=js"
+  },
+  {
+    "name": "Typescript",
+    "img": "https://skillicons.dev/icons?i=ts"
+  },
+  {
+    "name": "Node.js",
+    "img": "https://skillicons.dev/icons?i=nodejs"
+  },
+  {
+    "name": "React",
+    "img": "https://skillicons.dev/icons?i=react"
+  },
+  {
+    "name": "HTML",
+    "img": "https://skillicons.dev/icons?i=html"
+  },
+  {
+    "name": "CSS",
+    "img": "https://skillicons.dev/icons?i=css"
+  },
+  {
+    "name": "Docker",
+    "img": "https://skillicons.dev/icons?i=docker"
+  },
+  {
+    "name": "Git",
+    "img": "https://skillicons.dev/icons?i=git"
+  },
+  {
+    "name": "Mysql",
+    "img": "https://skillicons.dev/icons?i=mysql"
+  }
+]

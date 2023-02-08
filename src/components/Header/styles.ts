@@ -7,6 +7,9 @@ export const Header = styled.header`
   height: 80px;
   padding-right: 100px;
   padding-left: 100px;
+    a:hover {
+      color: #93afd5;
+    }
 `;
 
 export const Logo = styled.img`
