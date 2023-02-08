@@ -11,7 +11,6 @@ export const Footer = styled.footer`
   height: 30px;
   font-size: 18px;
     span{
-      font-family: sans-serif;
       background-color: #04080f;
     }
 `;

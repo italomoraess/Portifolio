@@ -2,10 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   * {
-    @font-face {
-      font-family: 'Greenth';
-      src: url('fonts/Greenth_Personal_Use.otf') format('opentype');
-    }
     margin: 0;
     padding: 0;
     text-decoration: none;

@@ -28,6 +28,7 @@ export const Menu = styled.ul`
     align-items: center;
     padding-right: 30px;
     font-size: 18px;
+    font-weight: 900;
   }
 
   a{
