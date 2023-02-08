@@ -4,7 +4,7 @@ import { Title, ContainerSkills, Skill } from './styles';
 export const Skills = () => {
   return (
     <>
-      <Title>SKILLS</Title>
+      <Title id='skills'>SKILLS</Title>
       <ContainerSkills>
         {
           skills.map((skill, index) => {
