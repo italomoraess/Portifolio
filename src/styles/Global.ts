@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     list-style: none;
     background-color: #000;
-    font-family: 'Greenth', serif;
+    font-family: 'Roboto', serif;
     color: #FFF;
 
     scroll-behavior: smooth
