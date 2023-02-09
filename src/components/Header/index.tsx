@@ -7,10 +7,10 @@ export const Headers = () => {
       <a href="/"><Logo src={LogoImage} /></a>
       <Menu>
         <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="/">PROJECTS</a></li>
-        <li><a href="/">CONTACT</a></li>
+        <li><a href="#">SOBRE</a></li>
+        <li><a href="#skills">HABILIDADES</a></li>
+        <li><a href="/">PROJETOS</a></li>
+        <li><a href="/">CONTATOS</a></li>
       </Menu>
     </Header>
   );

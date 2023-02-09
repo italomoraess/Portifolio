@@ -7,5 +7,6 @@ export const HomeSection = styled.section`
   padding-bottom: 160px;
   img{
     width: 1000px;
+    max-width: 100%;
   }
 `;
