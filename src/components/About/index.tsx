@@ -16,6 +16,7 @@ export const About = () => {
         Me chamo Italo Moraes, tenho 26 anos e tecnologia é o que me faz brilhar os olhos, sou apaixonado por linhas de codigos<br />
         e muito curioso por assuntos relacionados a tecnologia
       </p>
+      <a href="#contatos">Contate me</a>
     </ContainerAbout>
   );
 }

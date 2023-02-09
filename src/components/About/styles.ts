@@ -16,5 +16,21 @@ export const ContainerAbout = styled.div`
     p {
       padding-top: 30px;
       background-color: #507DBC; 
+      line-height: 25px;
+    }
+
+    a {
+      border-radius: 10px;
+      background-color: #FFF;
+      font-size: 30px;
+      padding: 10px;
+      margin-top: 30px;
+      cursor: pointer;
+      color: #507DBC;
+      transition: background 0.5s;
+    }
+
+    a:hover{
+      background: #000;
     }
 `
