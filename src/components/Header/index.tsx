@@ -6,11 +6,11 @@ export const Headers = () => {
     <Header>
       <a href="/"><Logo src={LogoImage} /></a>
       <Menu>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">SOBRE</a></li>
-        <li><a href="#skills">HABILIDADES</a></li>
-        <li><a href="/">PROJETOS</a></li>
-        <li><a href="/">CONTATOS</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="/">Projetos</a></li>
+        <li><a href="/">Contatos</a></li>
       </Menu>
     </Header>
   );

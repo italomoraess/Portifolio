@@ -1,3 +1,4 @@
+import { About } from "./components/About"
 import { Footers } from "./components/Footer"
 import { Headers } from "./components/Header"
 import { Home } from "./components/Home"
@@ -10,6 +11,7 @@ function App() {
       <GlobalStyles />
       <Headers />
       <Home />
+      <About />
       <Skills />
       <Footers />
     </>
