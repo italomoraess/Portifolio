@@ -5,32 +5,44 @@ export const ContainerAbout = styled.div`
   flex-direction: column;
   align-items: center;
   height: 700px;
-  background-color: #507DBC;
+  background-color: #262626;
   padding-top: 200px;
     h1{
-      background-color: #507DBC;
+      background-color: #262626;
       font-size: 50px;
       font-weight: 500;
     }
 
+
+`
+
+export const ContainerGeral = styled.div`
+  display: flex;
+  width: 60%;
+  padding-top: 30px;
+  background-color: #262626;
     p {
-      padding-top: 30px;
-      background-color: #507DBC; 
+      background-color: #262626; 
       line-height: 25px;
+      text-align: justify;
     }
+`
+export const ContainerContacts = styled.div`
+  display: flex;
+  align-items: flex-end;
+  width: 30%;
+  padding-left: 30px;
+  background-color: #262626;
 
     a {
-      border-radius: 10px;
-      background-color: #FFF;
-      font-size: 30px;
-      padding: 10px;
-      margin-top: 30px;
-      cursor: pointer;
-      color: #507DBC;
-      transition: background 0.5s;
+      background-color: #262626; 
+      height: 0;
     }
 
-    a:hover{
-      background: #000;
+    img{
+      width: 70px;
+      background-color: #262626; 
+      margin: 10px;
+      border-radius: 10px;
     }
 `

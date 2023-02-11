@@ -5,12 +5,12 @@ export const Footer = styled.footer`
   justify-content: center;
   align-items: center;
   bottom: 0;
-  background-color: #04080f;
+  background-color: #1A293D;
   color: #fff;
   width: 100%;
   height: 30px;
   font-size: 18px;
     span{
-      background-color: #04080f;
+      background-color: #1A293D;
     }
 `;

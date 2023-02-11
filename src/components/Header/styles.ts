@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-  background-color: #04080f;
+  background-color: #1A293D;
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -13,7 +13,7 @@ export const Header = styled.header`
 `;
 
 export const Logo = styled.img`
-  background-color: #04080f;
+  background-color: #1A293D;
   height: 100%;
   padding-left: 200px;
 `;
@@ -23,7 +23,7 @@ export const Menu = styled.ul`
   margin-right: 200px;
 
   li { 
-    background-color: #04080f;
+    background-color: #1A293D;
     display: flex;
     align-items: center;
     padding-right: 30px;
@@ -32,7 +32,7 @@ export const Menu = styled.ul`
   }
 
   a{
-    background-color: #04080f;
+    background-color: #1A293D;
     color: white;
   }
 `;
