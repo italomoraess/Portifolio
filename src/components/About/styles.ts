@@ -49,6 +49,7 @@ export const ContainerLogo = styled.div`
 
 export const Logo = styled.img`
   width: 200px;
+  margin: 10px;
   margin-left: 35px;
   background-color: #1A293D; 
   border-radius: 10px;

@@ -25,9 +25,9 @@ export const About = () => {
           <ContainerLogo>
               <Logo src={LogoPessoal} alt="" />
             <ContainerContacts>
-              <a href="https://github.com/italomoraess"><img src={LogoGit} alt="" /></a>
-              <a href="https://www.linkedin.com/in/italo-moraess/"><img src={LogoLinkedin} alt="" /></a>
-              <a href=""><img src={LogoGmail} alt="" /></a>
+              <a href="https://github.com/italomoraess" target='_blank'><img src={LogoGit} alt="" /></a>
+              <a href="https://www.linkedin.com/in/italo-moraess/" target='_blank'><img src={LogoLinkedin} alt="" /></a>
+              <a href="" target='_blank'><img src={LogoGmail} alt="" /></a>
             </ContainerContacts>
           </ContainerLogo>
       </ContainerGeral>
