@@ -15,7 +15,7 @@ export const ContainerAbout = styled.div`
 `
 export const ContainerGeral = styled.div`
   display: flex;
-  width: 60%;
+  width: 50%;
   padding-top: 30px;
   background-color: #1A293D;
     p {
