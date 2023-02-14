@@ -1,7 +1,8 @@
-import { ContainerAbout, ContainerContacts, ContainerGeral } from "./styles";
+import { ContainerAbout, ContainerContacts, ContainerGeral, ContainerLogo, Logo } from "./styles";
 import LogoGit from '../../assets/LogoGit.jpeg'
 import LogoLinkedin from '../../assets/LogoLinkedin.png'
 import LogoGmail from '../../assets/LogoGmail.png'
+import LogoPessoal from '../../assets/EU.jpeg'
 
 export const About = () => {
   return (
@@ -20,11 +21,15 @@ export const About = () => {
           Me chamo Italo Moraes, tenho 26 anos e tecnologia é o que me faz brilhar os olhos, sou apaixonado por linhas de codigos
           e muito curioso por assuntos relacionados a tecnologia
         </p>
-        <ContainerContacts>
-          <a href=""><img src={LogoGit} alt="" /></a>
-          <a href=""><img src={LogoLinkedin} alt="" /></a>
-          <a href=""><img src={LogoGmail} alt="" /></a>
-        </ContainerContacts>
+        
+          <ContainerLogo>
+              <Logo src={LogoPessoal} alt="" />
+            <ContainerContacts>
+              <a href=""><img src={LogoGit} alt="" /></a>
+              <a href=""><img src={LogoLinkedin} alt="" /></a>
+              <a href=""><img src={LogoGmail} alt="" /></a>
+            </ContainerContacts>
+          </ContainerLogo>
       </ContainerGeral>
     </ContainerAbout>
   );
