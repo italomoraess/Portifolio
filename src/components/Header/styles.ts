@@ -15,12 +15,12 @@ export const Header = styled.header`
 export const Logo = styled.img`
   background-color: #1A293D;
   height: 100%;
-  padding-left: 200px;
+  padding-left: 150px;
 `;
 
 export const Menu = styled.ul`
   display: flex;
-  margin-right: 200px;
+  margin-right: 150px;
 
   li { 
     background-color: #1A293D;

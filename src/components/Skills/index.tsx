@@ -1,9 +1,9 @@
 import skills from '../../skills.json'
-import { Title, ContainerSkills, Skill } from './styles';
+import { Title, ContainerSkills, Skill, ContainerGeralSkills } from './styles';
 
 export const Skills = () => {
   return (
-    <>
+    <ContainerGeralSkills>
       <Title id='skills'>Habilidades</Title>
       <ContainerSkills>
         {
@@ -15,6 +15,6 @@ export const Skills = () => {
          })
         }
       </ContainerSkills>
-    </>
+    </ContainerGeralSkills>
   );
 };
