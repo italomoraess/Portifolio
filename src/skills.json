@@ -24,6 +24,14 @@
     "img": "https://skillicons.dev/icons?i=css"
   },
   {
+    "name": "Next.js",
+    "img": "https://skillicons.dev/icons?i=nextjs"
+  },
+  {
+    "name": "Express",
+    "img": "https://skillicons.dev/icons?i=express"
+  },
+  {
     "name": "Docker",
     "img": "https://skillicons.dev/icons?i=docker"
   },
@@ -32,7 +40,27 @@
     "img": "https://skillicons.dev/icons?i=git"
   },
   {
+    "name": "GitHub",
+    "img": "https://skillicons.dev/icons?i=github"
+  },
+  {
     "name": "Mysql",
     "img": "https://skillicons.dev/icons?i=mysql"
+  },
+  {
+    "name": "Postman",
+    "img": "https://skillicons.dev/icons?i=postman"
+  },
+  {
+    "name": "Jest",
+    "img": "https://skillicons.dev/icons?i=jest"
+  },
+  {
+    "name": "Linux",
+    "img": "https://skillicons.dev/icons?i=linux"
+  },
+  {
+    "name": "Prisma",
+    "img": "https://skillicons.dev/icons?i=prisma"
   }
 ]

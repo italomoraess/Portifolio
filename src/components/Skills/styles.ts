@@ -10,7 +10,14 @@ export const Title = styled.h1`
 export const ContainerSkills = styled.div`
   display: flex;
   justify-content: center;
+  align-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
   height: 700px;
+  width: 60%;
+  flex-wrap: wrap;
+
 `;
 
 export const Skill = styled.div`
