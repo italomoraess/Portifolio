@@ -3,8 +3,8 @@ import { Title, ContainerSkills, Skill, ContainerGeralSkills } from './styles';
 
 export const Skills = () => {
   return (
-    <ContainerGeralSkills>
-      <Title id='skills'>Habilidades</Title>
+    <ContainerGeralSkills id='skills'>
+      <Title>Habilidades</Title>
       <ContainerSkills>
         {
           skills.map((skill, index) => {

@@ -6,6 +6,7 @@ export const Header = styled.header`
   justify-content: space-between;
   height: 80px;
   position: fixed;
+  top: 0;
   width: 100%;
   border-bottom: 1px solid black;
     a:hover {

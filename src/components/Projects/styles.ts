@@ -4,8 +4,8 @@ export const ContainerProjects = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 700px;
-  padding-top: 200px;
+  padding-top: 100px;
+  padding-bottom: 200px;
     h1{
       font-size: 50px;
       font-weight: 500;

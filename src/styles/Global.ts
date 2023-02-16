@@ -13,6 +13,10 @@ export const GlobalStyles = createGlobalStyle`
     scroll-behavior: smooth
   }
 
+  body {
+    padding-top: 80px;
+  }
+
   body::-webkit-scrollbar {
     width: 5px;
   }

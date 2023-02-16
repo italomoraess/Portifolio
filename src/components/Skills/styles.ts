@@ -2,12 +2,16 @@ import styled from "styled-components";
 
 export const ContainerGeralSkills = styled.div`
   background-color: #1A293D;
-  height: 700px;
-  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 100%;
+  padding-top: 100px;
+  padding-bottom: 150px;
 `
 
 export const Title = styled.h1`
-  text-align: center;
   font-weight: 500;
   font-size: 50px;
   background-color: #1A293D;

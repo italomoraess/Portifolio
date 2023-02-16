@@ -4,9 +4,10 @@ export const ContainerAbout = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 700px;
-  background-color: #1A293D;
+  justify-content: cente;
   padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #1A293D;
     h1{
       background-color: #1A293D;
       font-size: 50px;
