@@ -10,8 +10,8 @@ export const Projects = () => {
         { 
           projects.map((project, index) => {
             return <StyleProject>
-              <img src={Tcf} alt="" />
-              <a href={project.link}>{project.name}</a>
+              <img src={project.image} alt="" />
+              <a href={project.link} target="_blank">{project.name}</a>
             </StyleProject>
           })
         }

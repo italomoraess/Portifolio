@@ -1,32 +1,32 @@
 [
   {
+    "name": "Trybe Futebol Club - TFC",
+    "image": "./src/assets/TFC.png",
+    "link": "https://github.com/italomoraess/Project-Trybe-Futebol-Clube"
+  },
+  {
+    "name": "MKS Sistemas",
+    "image": "./src/assets/MKs.png",
+    "link": "https://github.com/italomoraess/mks-sistemas"
+  },
+  {
     "name": "Test",
-    "image": "Test",
+    "image": "./src/assets/nodejs.jpg",
     "link": "Test"
   },
   {
     "name": "Test",
-    "image": "Test",
+    "image": "./src/assets/nodejs.jpg",
     "link": "Test"
   },
   {
     "name": "Test",
-    "image": "Test",
+    "image": "./src/assets/nodejs.jpg",
     "link": "Test"
   },
   {
     "name": "Test",
-    "image": "Test",
-    "link": "Test"
-  },
-  {
-    "name": "Test",
-    "image": "Test",
-    "link": "Test"
-  },
-  {
-    "name": "Test",
-    "image": "Test",
+    "image": "./src/assets/nodejs.jpg",
     "link": "Test"
   }
 ]

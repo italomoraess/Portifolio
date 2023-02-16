@@ -28,6 +28,7 @@ export const StyleProject = styled.div`
   font-weight: 300;
     img {
       width: 400px;
+      height: 250px;
     }
     a {
       background-color: #1A293D;
