@@ -7,6 +7,7 @@ export const Header = styled.header`
   height: 80px;
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid black;
     a:hover {
       color: #507DBC;
     }
