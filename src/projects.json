@@ -1,32 +1,32 @@
 [
   {
     "name": "Trybe Futebol Club - TFC",
-    "image": "./dist/assets/TFC.png",
+    "image": "https://raw.githubusercontent.com/italomoraess/Portifolio/main/src/assets/TFC.png",
     "link": "https://github.com/italomoraess/Project-Trybe-Futebol-Clube"
   },
   {
     "name": "MKS Sistemas",
-    "image": "./dist/assets/MKs.png",
+    "image": "https://github.com/italomoraess/Portifolio/blob/main/src/assets/MKs.png?raw=true",
     "link": "https://github.com/italomoraess/mks-sistemas"
   },
   {
     "name": "Test",
-    "image": "./dist/assets/nodejs.jpg",
+    "image": "https://github.com/italomoraess/Portifolio/blob/main/src/assets/nodejs.jpg?raw=true",
     "link": "Test"
   },
   {
     "name": "Test",
-    "image": "./dist/assets/nodejs.jpg",
+    "image": "https://github.com/italomoraess/Portifolio/blob/main/src/assets/nodejs.jpg?raw=true",
     "link": "Test"
   },
   {
     "name": "Test",
-    "image": "./dist/assets/nodejs.jpg",
+    "image": "https://github.com/italomoraess/Portifolio/blob/main/src/assets/nodejs.jpg?raw=true",
     "link": "Test"
   },
   {
     "name": "Test",
-    "image": "./dist/assets/nodejs.jpg",
+    "image": "https://github.com/italomoraess/Portifolio/blob/main/src/assets/nodejs.jpg?raw=true",
     "link": "Test"
   }
 ]
