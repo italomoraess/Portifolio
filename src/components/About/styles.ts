@@ -25,6 +25,12 @@ export const ContainerGeral = styled.div`
       text-align: justify;
     }
 `
+export const ContainerLink = styled.a`
+  background-color: #1A293D;
+  font-weight: bold;
+  font-style: oblique;
+`;
+
 export const ContainerContacts = styled.div`
   display: flex;
   width: 30%;
@@ -36,9 +42,9 @@ export const ContainerContacts = styled.div`
     }
 
     img {
-      width: 50px;
+      width: 40px;
       background-color: #1A293D; 
-      margin: 10px;
+      margin: 6px;
       border-radius: 10px;
     }
 `

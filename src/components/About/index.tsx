@@ -1,4 +1,4 @@
-import { ContainerAbout, ContainerContacts, ContainerGeral, ContainerLogo, Logo } from "./styles";
+import { ContainerAbout, ContainerContacts, ContainerGeral, ContainerLogo, Logo, ContainerLink } from "./styles";
 import LogoGit from '../../assets/LogoGit.jpeg'
 import LogoLinkedin from '../../assets/LogoLinkedin.png'
 import LogoGmail from '../../assets/LogoGmail.png'
@@ -10,16 +10,14 @@ export const About = () => {
       <h1>Sobre</h1>
       <ContainerGeral>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum elit a nibh dictum, non sagittis urna congue.
-          Praesent fringilla dignissim ipsum eget porta. Proin finibus dictum placerat. Quisque accumsan tempor ex, quis commodo dolor
-          accumsan in. Vestibulum quis bibendum est. Nunc nibh ligula, volutpat ut pharetra ac, vehicula feugiat diam. Proin dignissim
-          ante vel arcu mattis porta. Aenean mollis dolor ac lorem imperdiet, sit amet pulvinar libero varius. Nam viverra, sapien nec
-          ullamcorper feugiat, eros diam dictum ex, a ullamcorper mi nunc sed nulla. Fusce commodo, erat ut commodo laoreet, justo odio
-          mollis augue, quis efficitur lectus risus ornare nulla. Vestibulum ex sem, interdum sed mauris eget, egestas commodo augue.
-          Aliquam varius lacus sit amet urna volutpat tristique. Donec sed condimentum massa, eu placerat tellus.<br />
-
-          Me chamo Italo Moraes, tenho 26 anos e tecnologia é o que me faz brilhar os olhos, sou apaixonado por linhas de codigos
-          e muito curioso por assuntos relacionados a tecnologia
+        Me chamo Italo Moraes, tenho 26 anos e tecnologia é o que me faz brilhar os olhos. Sou apaixonado por linhas de códigos e 
+        muito curioso por assuntos relacionados à tecnologia. Atualmente estou em busca de conquistar o sonho de trabalhar com desenvolvimento 
+        web e me especializar, a fim de alcançar a senioridade.<br />
+        Domino habilidades como Javascript, Typescript, Node.js, React, HTML, CSS entre outras que você pode conferir na página <ContainerLink href="#skills">
+        habilidades </ContainerLink>. <br />
+        Venho adquirindo tais conhecimentos, desde o ingresso no curso técnico em Redes de Computadores, dando continuidade com a 
+        formação na Trybe, como também na formação acadêmica em análise e desenvolvimento de sistemas. Além disso, estou sempre em busca de crescer
+        e aperfeiçoar minhas habilidades profissionais e pessoais, para ser alguém cada vez melhor.
         </p>
         
           <ContainerLogo>
@@ -27,6 +25,7 @@ export const About = () => {
             <ContainerContacts>
               <a href="https://github.com/italomoraess" target='_blank'><img src={LogoGit} alt="" /></a>
               <a href="https://www.linkedin.com/in/italo-moraess/" target='_blank'><img src={LogoLinkedin} alt="" /></a>
+              <a href="" target='_blank'><img src={LogoGmail} alt="" /></a>
               <a href="" target='_blank'><img src={LogoGmail} alt="" /></a>
             </ContainerContacts>
           </ContainerLogo>
