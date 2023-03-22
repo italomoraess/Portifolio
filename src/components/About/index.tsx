@@ -3,6 +3,7 @@ import LogoGit from '../../assets/LogoGit.jpeg'
 import LogoLinkedin from '../../assets/LogoLinkedin.png'
 import LogoGmail from '../../assets/LogoGmail.png'
 import LogoPessoal from '../../assets/EU.jpeg'
+import LogoCv from '../../assets/cv.png'
 
 export const About = () => {
   return (
@@ -26,7 +27,7 @@ export const About = () => {
               <a href="https://github.com/italomoraess" target='_blank'><img src={LogoGit} alt="" /></a>
               <a href="https://www.linkedin.com/in/italo-moraess/" target='_blank'><img src={LogoLinkedin} alt="" /></a>
               <a href="" target='_blank'><img src={LogoGmail} alt="" /></a>
-              <a href="" target='_blank'><img src={LogoGmail} alt="" /></a>
+              <a href="" target='_blank'><img src={LogoCv} alt="" /></a>
             </ContainerContacts>
           </ContainerLogo>
       </ContainerGeral>
