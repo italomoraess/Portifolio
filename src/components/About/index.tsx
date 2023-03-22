@@ -27,7 +27,7 @@ export const About = () => {
               <a href="https://github.com/italomoraess" target='_blank'><img src={LogoGit} alt="" /></a>
               <a href="https://www.linkedin.com/in/italo-moraess/" target='_blank'><img src={LogoLinkedin} alt="" /></a>
               <a href="" target='_blank'><img src={LogoGmail} alt="" /></a>
-              <a href="" target='_blank'><img src={LogoCv} alt="" /></a>
+              <a href="https://drive.google.com/file/d/1aiw4zS7Y27-k0k3CrWClbsE4vhxEXrsj/view?usp=sharing" target='_blank'><img src={LogoCv} alt="" /></a>
             </ContainerContacts>
           </ContainerLogo>
       </ContainerGeral>
