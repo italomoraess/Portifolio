@@ -27,6 +27,10 @@ export const ContainerSkills = styled.div`
   width: 60%;
   flex-wrap: wrap;
   background-color: #1A293D;
+  
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
 
 `;
 

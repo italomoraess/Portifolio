@@ -27,7 +27,7 @@ export const StyleProject = styled.div`
   font-size: 20px;
   font-weight: 300;
     img {
-      width: 400px;
+      width: 100%;
       height: 250px;
     }
     a {
