@@ -1,7 +1,13 @@
 import { Header, Logo, Menu } from "./styles";
 import LogoImage from '../../assets/logo.png'
+import { useState } from "react";
 
 export const Headers = () => {
+  const [activeMenu, setActiveMenu] = useState(false);
+
+  const menuMobile = () => {
+    setActiveMenu(!activeMenu);
+  }
   return(
     <Header>
       <a href="/"><Logo src={LogoImage} /></a>

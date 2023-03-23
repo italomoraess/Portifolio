@@ -16,7 +16,9 @@ export const ContainerAbout = styled.div`
 `
 export const ContainerGeral = styled.div`
   display: flex;
-  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
   padding-top: 30px;
   background-color: #1A293D;
     p {
@@ -24,6 +26,9 @@ export const ContainerGeral = styled.div`
       line-height: 25px;
       text-align: justify;
     }
+  @media (max-width:1024px) {
+    width: 80%;
+  } 
 `
 export const ContainerLink = styled.a`
   background-color: #1A293D;
@@ -52,6 +57,7 @@ export const ContainerLogo = styled.div`
   display: flex;
   flex-direction: column;
   background-color: #1A293D; 
+  margin-top: 20px;
 `
 
 export const Logo = styled.img`

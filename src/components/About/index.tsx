@@ -15,8 +15,7 @@ export const About = () => {
         muito curioso por assuntos relacionados à tecnologia. Atualmente estou em busca de conquistar o sonho de trabalhar com desenvolvimento 
         web e me especializar, a fim de alcançar a senioridade.<br />
         Domino habilidades como Javascript, Typescript, Node.js, React, HTML, CSS entre outras que você pode conferir na página <ContainerLink href="#skills">
-        habilidades </ContainerLink>. <br />
-        Venho adquirindo tais conhecimentos, desde o ingresso no curso técnico em Redes de Computadores, dando continuidade com a 
+        habilidades</ContainerLink>, venho adquirindo tais conhecimentos, desde o ingresso no curso técnico em Redes de Computadores, dando continuidade com a 
         formação na Trybe, como também na formação acadêmica em análise e desenvolvimento de sistemas. Além disso, estou sempre em busca de crescer
         e aperfeiçoar minhas habilidades profissionais e pessoais, para ser alguém cada vez melhor.
         </p>
