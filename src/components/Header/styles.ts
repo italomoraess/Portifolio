@@ -12,25 +12,47 @@ export const Header = styled.header`
     a:hover {
       color: #507DBC;
     }
+
+    @media (max-width: 1024px) {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      border-bottom: none;
+    }
 `;
 
 export const Logo = styled.img`
   background-color: #1A293D;
   height: 100%;
-  padding-left: 150px;
+  padding-left: 150px; 
+  @media (max-width: 1024px) {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+  } 
 `;
 
 export const Menu = styled.ul`
   display: flex;
   margin-right: 150px;
-
+  @media (max-width: 1024px) {
+    margin-right: 0;
+  }  
   li { 
     background-color: #1A293D;
     display: flex;
     align-items: center;
     padding-right: 30px;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 900;  
+    @media (max-width: 1024px) {
+      align-items: center;
+      padding: 10px;
+    }
   }
 
   a{
