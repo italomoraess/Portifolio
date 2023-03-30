@@ -23,7 +23,12 @@ export const ContainerProjects = styled.div`
     svg:hover {
       fill: #1A293D;
     }
-}
+  }
+  @media (max-width:1024px) {
+    .splide{
+      width: 75%;
+    }
+  } 
 `;
 
 // export const StylesProjects = styled.div`
@@ -41,6 +46,10 @@ export const StyleProject = styled.div`
       width: 100%;
       height: 600px;
       border-radius: 10px 10px 0 0;
+
+      @media (max-width:1024px) {
+        height: 300px;
+      } 
     }
     a {
       text-align: center;
