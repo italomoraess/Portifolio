@@ -1,21 +1,31 @@
-import { ContainerProjects, StylesProjects, StyleProject } from "./styles";
+import { ContainerProjects, StyleProject } from "./styles";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 import projects from "../../projects.json"
-import Tcf from "../../assets/TFC.png" 
+import '@splidejs/react-splide/css/sea-green';
+
 
 export const Projects = () => {
   return (
     <ContainerProjects id="projects">
       <h1>Projetos</h1>
-      <StylesProjects>
+      <Splide
+        options={{
+          rewind: true,
+          width : 1050,
+          gap   : '1rem',
+        }}
+      >
         { 
           projects.map((project, index) => {
-            return <StyleProject>
-              <img src={project.image} alt="" />
-              <a href={project.link} target="_blank">{project.name}</a>
-            </StyleProject>
-          })
-        }
-      </StylesProjects>
+            return <SplideSlide className="">
+              <StyleProject>
+                <img src={project.image} alt="" />
+                <a href={project.link} target="_blank">{project.name}</a>
+              </StyleProject>
+            </SplideSlide>
+        })
+      }
+      </Splide> 
     </ContainerProjects>
   );
 };
