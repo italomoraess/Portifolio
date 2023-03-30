@@ -13,9 +13,9 @@ export const ContainerProjects = styled.div`
   .splide__pagination__page:hover {
     background-color: #1A293D;
   }
-  .splide__pagination__page {
-    color: #1A293D;
-  }  
+  .splide__pagination__page.is-active {
+    background: #1A293D;
+  }
   .splide__arrow{
     svg {
       fill: #fff;
