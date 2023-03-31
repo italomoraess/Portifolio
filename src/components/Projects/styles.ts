@@ -17,6 +17,7 @@ export const ContainerProjects = styled.div`
     background: #1A293D;
   }
   .splide__arrow{
+    z-index: 0;
     svg {
       fill: #fff;
     }
@@ -24,6 +25,13 @@ export const ContainerProjects = styled.div`
       fill: #1A293D;
     }
   }
+
+  .splide{
+    ul{
+      z-index: 0;
+    }
+  }
+
   @media (max-width:1024px) {
     .splide{
       width: 75%;
