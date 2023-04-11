@@ -53,15 +53,18 @@ export const StyleProject = styled.div`
     img {
       width: 100%;
       height: 600px;
-      border-radius: 10px 10px 0 0;
+      border-radius: 0 0  10px 10px;
 
       @media (max-width:1024px) {
         height: 300px;
+        img {
+          object-fit: cover;
+        }
       } 
     }
     a {
       text-align: center;
       background-color: #1A293D;
-      border-radius: 0 0 10px 10px;
+      border-radius: 10px 10px 0 0;
     }
 `

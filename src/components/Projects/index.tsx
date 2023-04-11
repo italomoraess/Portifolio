@@ -19,8 +19,8 @@ export const Projects = () => {
           projects.map((project, index) => {
             return <SplideSlide className="">
               <StyleProject>
-                <img src={project.image} alt="" />
                 <a href={project.link} target="_blank">{project.name}</a>
+                <img src={project.image} alt="" />
               </StyleProject>
             </SplideSlide>
         })
