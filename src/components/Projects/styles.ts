@@ -56,7 +56,7 @@ export const StyleProject = styled.div`
       border-radius: 0 0  10px 10px;
 
       @media (max-width:1024px) {
-        height: 80%;
+        height: 100%;
         img {
           object-fit: cover;
         }
