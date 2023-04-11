@@ -27,6 +27,7 @@ export const ContainerProjects = styled.div`
   }
 
   .splide{
+    width: 50%;
     ul{
       z-index: 0;
     }
@@ -51,7 +52,7 @@ export const StyleProject = styled.div`
   font-size: 20px;
   font-weight: 300;
     img {
-      height: 500px;
+      height: 450px;
       border-radius: 0 0  10px 10px;
 
       @media (max-width:1024px) {

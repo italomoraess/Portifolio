@@ -15,8 +15,6 @@ export const Header = styled.header`
     }
 
     @media (max-width: 1024px) {
-      padding-top: 100px;
-      padding-bottom: 100px;
       flex-direction: column;
       height: auto;
       align-items: center;
