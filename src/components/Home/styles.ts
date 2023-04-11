@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const HomeSection = styled.section`
   display: flex;
   justify-content: center;
+  align-items: center;
   img{
     width: 80%;
     max-width: 100%;

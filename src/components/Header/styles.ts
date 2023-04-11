@@ -64,5 +64,14 @@ export const Menu = styled.ul`
   a{
     background-color: #1A293D;
     color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
+    img {
+      width: 20px;
+      background-color: #1A293D;
+      margin-left: 4px;
+    }
   }
 `;
