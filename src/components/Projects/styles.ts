@@ -51,8 +51,7 @@ export const StyleProject = styled.div`
   font-size: 20px;
   font-weight: 300;
     img {
-      width: 100%;
-      height: 600px;
+      height: 500px;
       border-radius: 0 0  10px 10px;
 
       @media (max-width:1024px) {

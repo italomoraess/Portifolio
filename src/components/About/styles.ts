@@ -5,7 +5,7 @@ export const ContainerAbout = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: cente;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 200px;
   background-color: #1A293D;
     h1{
